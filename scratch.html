@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cosplay & Makeup Journey</title>
+    <link rel="stylesheet" href="scratch.css">
+</head>
+
+<body>
+
+<!-- Anchor link at top -->
+<a href="#gallery">Jump Current Makeup Industry Tableau Trends ↓</a>
+
+<!-- ====== DIV 1: INTRO ====== -->
+<div class="section">
+    <h1>My Cosplay & Makeup Journey</h1>
+    <p>
+        I started my cosplay and makeup journey when I was 17 years old. What began as a passion quickly turned into a small business where I provided makeup services for clients. Over the past two years, I have worked with many people and earned thousands of dollars doing something I truly enjoy.
+    </p>
+</div>
+
+<!-- ====== DIV 2: GALLERY + LIST ====== -->
+<div class="section" id="gallery">
+    <h2>My Cosplay Work</h2>
+
+    <!-- Images (replace file names with yours) -->
+    <img src="assets/img/unnamed.jpg" alt="Cosplay 1">
+    <img src="assets/img/36462.jpg" alt="Cosplay 2">
+    <img src="assets/img/36459.jpg" alt="Cosplay 3">
+    <img src="assets/img/36456.jpg" alt="Cosplay 4">
+    <p>
+        Each cosplay requires creativity, planning, and attention to detail. Below is my general process when creating a cosplay look:
+    </p>
+
+    <!-- Ordered list with unordered list inside -->
+    <ol>
+        <li>Plan the character and design</li>
+        <li>Gather materials
+            <ul>
+                <li>Makeup products</li>
+                <li>Wigs and styling tools</li>
+                <li>Costume pieces</li>
+            </ul>
+        </li>
+        <li>Apply makeup and assemble outfit</li>
+        <li>Final photos and adjustments</li>
+    </ol>
+</div>
+
+<!-- ====== DIV 3: BUSINESS + VIDEO + TABLEAU ====== -->
+<div class="section">
+    <h2>My Makeup Business</h2>
+
+    <p>
+        Alongside cosplay, I have run a small makeup business for two years. I have taken clients for events, photoshoots, and special occasions. This experience has helped me develop strong customer service skills and improve my artistry. The video below is a makeup tutorial, but due to copyright resctrictions, the embedded video can only be viewed on youtube. 
+    </p>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube-nocookie.com/embed/_zAv91XZB-4"
+    title="Cosplay Makeup Video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+</iframe>
+
+<div class="section">
+    <h2>Cosplay & Makeup Industry Trends</h2>
+
+    <p>
+        This interactive Tableau dashboard explores cosmetic brand performance and industry trends.
+        You can interact with filters, hover over charts, and explore data about beauty and makeup products.
+    </p>
+
+    <!-- Tableau Embed -->
+    <div class='tableauPlaceholder' id='viz1776216927818' style='position: relative; margin: auto;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Dashboard 1'
+                src='https://public.tableau.com/static/images/Co/CosmeticBrandsAnalysis/Dashboard1/1_rss.png'
+                style='border: none' />
+            </a>
+        </noscript>
+
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https://public.tableau.com/' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='CosmeticBrandsAnalysis/Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https://public.tableau.com/static/images/Co/CosmeticBrandsAnalysis/Dashboard1/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+</div>
+
+<script type='text/javascript'>
+    document.addEventListener("DOMContentLoaded", function () {
+        var divElement = document.getElementById('viz1776216927818');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '700px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '600px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '800px';
+        }
+
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    });
+</script>
+
+<div class="section">
+    <a href="index.html">← Back to Home Page</a>
+</div>
+</body>
+</html>
