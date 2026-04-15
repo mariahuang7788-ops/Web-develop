@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cosplay Character Builder</title>
+<link rel="stylesheet" href="game-style.css">
+</head>
+<a href="index.html" class="home-link">← Back to Home Page</a>
+
+<body>
+
+<div class="container">
+
+<h1>🎭 Cosplay Character Builder</h1>
+<p>Create your own unique cosplay character + makeup concept instantly!</p>
+
+<div class="card">
+
+    <h3>Choose Your Style</h3>
+
+    <select id="mood">
+        <option value="cute">Cute</option>
+        <option value="dark">Dark</option>
+        <option value="elegant">Elegant</option>
+        <option value="chaotic">Chaotic</option>
+    </select>
+
+    <select id="theme">
+        <option value="anime">Anime</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="gothic">Gothic</option>
+        <option value="sci-fi">Sci-Fi</option>
+    </select>
+
+    <br>
+
+    <button onclick="generate()">✨ Generate Character</button>
+    <button onclick="resetApp()">Reset</button>
+
+    <div id="result"></div>
+
+</div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>

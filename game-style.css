@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.home-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.home-link:hover {
+    background: rgba(255,255,255,0.35);
+    transform: scale(1.05);
+}
